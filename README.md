@@ -1,2 +1,2 @@
-# melody
-Учебный проект Glo Academy
+# melody - учебный проект Glo Academy
+## Выполнил: Сила Тимофей
