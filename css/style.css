@@ -46,6 +46,14 @@ body {
     text-align: center;
 }
 
+.navbar-item {
+    margin-right: 80px;
+}
+
+.navbar-item:last-child {
+    margin-right: 0;
+}
+
 .navbar-link {
     white-space: pre-line;
     text-decoration: none;
