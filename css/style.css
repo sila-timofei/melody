@@ -195,6 +195,10 @@ path.curren-floor {
     color: #635854;
 }
 
+.social {
+    display: flex;
+}
+
 .social-link {
     text-decoration: none;
     margin-right: 15px;
