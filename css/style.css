@@ -24,8 +24,6 @@ body {
 
 .header {
     background-color: #635854;
-    padding-top: 12px;
-    padding-bottom: 12px;
     border-bottom: 4px solid #3596F5;
 }
 
@@ -55,9 +53,20 @@ body {
 }
 
 .navbar-link {
-    white-space: pre-line;
     text-decoration: none;
     color: #fff;
+    padding: 16px 0;
+    transition: 0.2s;
+    display: block;
+    width: 134px;
+}
+
+.navbar-link:hover {
+    background: #3596F5;
+}
+
+.navbar-link-active {
+    background: #3596F5;
 }
 
 .navbar-contacts {
@@ -150,4 +159,62 @@ path.curren-floor {
     color: #fff;
     border: none;
     cursor: pointer;
+}
+
+.footer {
+    background-color: #D7D7D7;
+    padding: 50px 0;
+    margin-top: 100px;
+    border-top: 4px solid #3596F5;
+}
+
+.footer > .container {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-right {
+    display: flex;
+    align-items: center;
+}
+
+.logo-footer {
+    margin-right: 38px;
+}
+
+.left-right > .navbar-contacts {
+    text-align: left;
+}
+
+.left-right > .navbar-contacts > .navbar-text {
+    color: #635854;
+}
+
+.left-right > .navbar-contacts > .navbar-phone {
+    color: #635854;
+}
+
+.social-link {
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.social-link:last-child {
+    margin-right: 0;
+}
+
+.additional-info {
+    margin-right: -20px;
+}
+
+.additional-link {
+    line-height: 19px;
+    text-decoration-line: underline;
+    color: #635854;
+    font-family: "Roboto";
+    margin-right: 20px;
+}
+
+.additional-link:hover {
+    text-decoration: none;
 }
